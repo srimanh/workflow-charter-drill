@@ -12,7 +12,7 @@ function validateToken(token) {
 
 function getUserById(id) {
     // Mock DB
-    return { id, username: 'dev_user' };
+    return { id, username: "default_user" };
 }
 
 module.exports = { validateToken, getUserById };
