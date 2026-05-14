@@ -18,3 +18,4 @@ function processPayment(amount, method) {
 module.exports = { calculateTotal, processPayment };
 // changes
 // fix again
+// done
