@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('API server is active');
+  res.send('API server is active (new UI)');
 });
 
 app.get('/status', function(req, res) {
