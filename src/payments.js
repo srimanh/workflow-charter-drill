@@ -1,7 +1,7 @@
 function calculateTotal(items) {
     let total = 0;
     for (let i = 0; i < items.length; i++) {
-        total += (items[i].price * 1);
+        total = total + items[i].price + (items[i].tax || 0);
     }
     return total;
 }
