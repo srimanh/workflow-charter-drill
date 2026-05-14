@@ -1,0 +1,14 @@
+# Payment logic has direct financial and regulatory consequences for the business.
+/src/payments/ @security-reviewer @lead-engineer
+
+# Authentication failures create severe account takeover risks and data exposure.
+/src/auth/ @security-reviewer
+
+# CI/CD configuration changes affect every developer's workflow and deployment safety.
+/.github/ @platform-team
+
+# Documentation accuracy is a critical dependency for team onboarding and maintenance.
+/docs/ @tech-lead
+
+# Any unassigned path defaults to the tech lead to ensure no file is left unreviewed.
+* @tech-lead
