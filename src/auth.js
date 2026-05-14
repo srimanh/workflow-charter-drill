@@ -16,3 +16,4 @@ function getUserById(id) {
 }
 
 module.exports = { validateToken, getUserById };
+// John's update
