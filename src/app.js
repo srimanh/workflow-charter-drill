@@ -30,3 +30,4 @@ app.listen(port, () => {
 // working
 // try this
 // testing
+app.get("/health", (req, res) => res.send("ok"));
