@@ -22,3 +22,4 @@ module.exports = { calculateTotal, processPayment };
 // done
 // verified
 const TAX_RATE = 0.05;
+const TAX_RATE = 0.05;
