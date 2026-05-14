@@ -8,6 +8,7 @@ function calculateTotal(items) {
 
 function processPayment(amount, method) {
     console.log("Processing payment for amount: " + amount);
+    console.log("DEBUG: payment processing initiated", amount);
     // TODO: Connect to gateway
     return {
         success: true,
